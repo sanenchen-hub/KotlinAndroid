@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
      * 显示Toast
      */
     private fun showToast(message: String) {
-        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, TestKotlinClass("123").returnTest(message), Toast.LENGTH_SHORT).show()
     }
 
     /**
