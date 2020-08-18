@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_main.*
+import org.json.JSONArray
 
 /**
  * @ClassName: MainActivity
@@ -30,14 +31,14 @@ class MainActivity : AppCompatActivity() {
         /**
          * 监听显示Toast
          */
-        button_show_toast.setOnClickListener{
+        button_show_toast.setOnClickListener {
             showToast("1234")
         }
 
         /**
          * 监听显示Dialog
          */
-        button_show_dialog.setOnClickListener{
+        button_show_dialog.setOnClickListener {
             showDialog("123", "123")
         }
 
